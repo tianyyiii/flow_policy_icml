@@ -130,7 +130,7 @@ class MF(Algorithm):
                 
                 r0 = jax.random.uniform(r_key, shape=(next_obs.shape[0],), minval=0.0, maxval=1.0)
                 #0.75
-                mask = jax.random.bernoulli(mask_key, p=0.0, shape=(next_obs.shape[0],))  
+                mask = jax.random.bernoulli(mask_key, p=0.1, shape=(next_obs.shape[0],))  
                 t0 = jax.random.uniform(t_key, shape=(next_obs.shape[0],), minval=0.0, maxval=1.0)
                 is_t_gt_r = t0 > r0
                 t_swap = jnp.where(is_t_gt_r, t0, r0)

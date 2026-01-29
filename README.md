@@ -1,11 +1,11 @@
-# FPMD
+# FMP
 
 ## Files in relax/algorithm
 
-* `rf.py` — FPMD-R for MuJoCo environments
-* `mf.py` — FPMD-M for MuJoCo environments
-* `rf_v.py` — FPMD-R for DMControl environments
-* `mf_v.py` — FPMD-M for DMControl environments
+* `rf.py` — FMP-M for MuJoCo environments
+* `mf.py` — FMP-C for MuJoCo environments
+* `rf_v.py` — FMP-M for DMControl environments
+* `mf_v.py` — FMP-C for DMControl environments
 
 ## Setup
 
